@@ -11,7 +11,7 @@ export async function InitializeStore(path: string): Promise<Store> {
         return;
       }
 
-      console.log(`${file} exists, and it is writable`);
+      // console.log(`${file} exists, and it is writable`);
     });
   });
 }

@@ -1,4 +1,4 @@
-import { InitializeStore } from "./guess/store";
+/*import { InitializeStore } from "./guess/store";*/
 
 /*import { App } from './framework/app';
 import { HTMLPlatform } from './framework/platforms/html-platform';
@@ -12,8 +12,9 @@ deploy(app, platform, {
   port : 8080,
 });*/
 
-async function main() {
+/*async function main() {
   const store = await InitializeStore("./src/guess/store");
 }
 
-main();
+main();*/
+
