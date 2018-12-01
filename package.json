@@ -14,6 +14,7 @@
     "js-yaml": "^3.12.0",
     "koa": "^2.6.2",
     "koa-route": "^3.2.0",
+    "reflect-metadata": "^0.1.12",
     "typescript": "^3.0.3",
     "yaml": "^1.0.0"
   },
