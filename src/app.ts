@@ -1,9 +1,16 @@
 import Koa, { Request, Response, Context } from 'koa';
 import router from 'koa-route';
+import { Module } from './module';
 
-export class App {
+export class App extends Module {
   constructor() {
+    super();
+
     this.app = new Koa();
+  }
+
+  Handle(koa: Koa) {
+    
   }
 
   deploy({ port }: { port: number }) {

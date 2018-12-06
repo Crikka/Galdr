@@ -1,6 +1,8 @@
 import model from "./model/model";
 import field from "./model/field";
-import { save } from "./model/operation";
+
+import { save } from "./model/operations";
+import { maybe } from "./model/struct";
 
 
 
@@ -45,6 +47,7 @@ class Triangle {
     this.p1 = p1;
     this.p2 = p2;
     this.p3 = p3;
+    this.center = new maybe<Point>();
   }
 
   @field()
@@ -55,6 +58,9 @@ class Triangle {
   
   @field()
   private p3: Point;
+
+  @field()
+  private center: maybe<Point>;
 }
 
 let p1 = new Point(0, 0);
